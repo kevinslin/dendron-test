@@ -1,0 +1,18 @@
+- id: dendron
+  parent: root
+  children:
+    - faq
+    - tips
+    - topic
+    - demo
+- id: faq
+- id: tips
+- id: demo
+  children:
+    - template
+- id: topic
+  namespace: true
+- id: template
+  template: 
+    id: dendron.template.example
+    type: note
